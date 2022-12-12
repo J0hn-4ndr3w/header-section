@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: cadetblue;
+}
+/* basic navbar down below */
+/* 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 3%;
+}
+.logo{
+  cursor: pointer;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav_links li a{
+  transition: all o.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: rgb(99, 207, 240);
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all o.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+} */
+
+/* end of basic navbar */
+
+/* second style of navbar */
+/* header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 3%;
+}
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav_links li a{
+  transition: all o.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: rgb(99, 207, 240);
+}
+
+button{
+  margin-left: 30px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all o.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);} */
+
+/* end of second navbar design */
+
+/* third navbar design */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 3%;
+}
+.logo{
+  cursor: pointer;
+  order: 3;
+  margin-left: auto;
+}
+nav{
+  order: 2;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+/* .nav_links li:nth-child(1){
+  padding: 0 20px 0 0;
+} */
+.nav_links li a{
+  transition: all o.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: rgb(99, 207, 240);
+}
+.cta{
+  order: 1;
+}
+button{
+  margin-right: 30px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all o.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);}
